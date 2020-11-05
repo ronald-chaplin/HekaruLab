@@ -20,7 +20,7 @@ class GrueApplicationTests {
 	}
 
 	@Test
-	void contextLoads() {
+	void siteLoadsTest(){
 		assertEquals("https://zorkherokutest.herokuapp.com/", driver.getCurrentUrl());
 	}
 
